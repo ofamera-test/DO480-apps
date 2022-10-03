@@ -4,6 +4,7 @@ kind: Kustomization
 bases:
   - ../../base
 resources:
+- route-mng.yaml
 nameSuffix: -emea
 
 images:
